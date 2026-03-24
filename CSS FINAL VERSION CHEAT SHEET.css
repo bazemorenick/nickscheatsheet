@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: beige;
+    font-family: "Roboto Mono"
+}
+
+h1 {
+  background-color: pink;
+}
+header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: seagreen;
+}
+
+table {
+    border: 3px solid burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: auto;
+    width: fit-content;
+}
+
+thead, td{
+    border: 1px dashed;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: pink
+}
+
+.code, .attribute {
+    background-color: seagreen;
+}
+
+.section {
+    background-color: mediumvioletred;
+}
