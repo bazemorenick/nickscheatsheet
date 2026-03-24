@@ -1,0 +1,339 @@
+<html>
+    <head>  
+      <link href="styles.css" rel="stylesheet" type="text/css">
+        <style>
+                @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+        </style>
+    </head>
+    <body>
+        <h1>
+            HTML/CSS Cheat Sheet
+        </h1>
+        <header>
+            Basic HTML Elements
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td colspan="3" class="section">Document Metadata</td>
+                </tr>
+            <tbody>
+                <tr>
+                    <td class="code">
+                        &lthtml&gt
+                    </td>
+                    <td>
+                        HTML Document
+                    </td>
+                    <td>
+                        The top-level element of an HTML document. All other elements are encompasssed in this element
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &lthead&gt
+                    </td>
+                    <td>
+                        Head
+                    </td>
+                    <td>
+                        Contains machine-readable info (title, scripts, styles sheets)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltlink&gt 
+                    </td>
+                    <td>
+                        Link 
+                    </td>
+                    <td>
+                        Specifies relationships between the current document and an external source. Common uses include linking to CSS and linking other styles
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &lttitle&gt 
+                    </td>
+                    <td>
+                        Title
+                    </td>
+                    <td>
+                        Defines document's title in browser's title bar on the tab at top of page
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="section">Sectioning Root / Content Sectioning</td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltbody&gt 
+                    </td>
+                    <td>
+                        Body
+                    </td>
+                    <td>
+                        Represents the content of an HTML document
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltaddress&gt 
+                    </td>
+                    <td>
+                        Address
+                    </td>
+                    <td>
+                        Enclosed HTML provides contact info for person, people, or organization
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltarticle&gt 
+                    </td>
+                    <td>
+                        Article
+                    </td>
+                    <td>
+                        Self-contained composition in a document, page, application, or site
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltaside&gt 
+                    </td>
+                    <td>
+                        Aside 
+                    </td>
+                    <td>
+                        Represents a portion of a document whose content is only indirectly related to the document's main content
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltfooter&gt 
+                    </td>
+                    <td>
+                        Footer
+                    </td>
+                    <td>
+                        Represents a footer for its nearest ancestor sectioning content/root element
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltheader&gt 
+                    </td>
+                    <td>
+                        Header
+                    </td>
+                    <td>
+                        Represents intro content, typically a group of intro or navigational ads (logo, search form, author name, etc.)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &lth1-h6&gt 
+                    </td>
+                    <td>
+                        Section Headings
+                    </td>
+                    <td>
+                        Six levels of section headings: h1 is highest, h6 is lowest
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltmain&gt 
+                    </td>
+                    <td>
+                        Main
+                    </td>
+                    <td>
+                        Represents the dominant content of the body of a document
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltsection&gt 
+                    </td>
+                    <td>
+                        Section 
+                    </td>
+                    <td>
+                        Represents a generic standalone section of a document
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="section">Text Content</td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltdiv&gt 
+                    </td>
+                    <td>
+                        Division
+                    </td>
+                    <td>
+                        Generic container for flow content. Has no effect on content or layout until styled in CSS
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltfigcaption&gt 
+                    </td>
+                    <td>
+                        Figure Caption
+                    </td>
+                    <td>
+                        Represents a caption or legend describing the rest of its parent content (see below)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltfigure&gt 
+                    </td>
+                    <td>
+                        Figure
+                    </td>
+                    <td>
+                        Represents self-contained content (parent element)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltp&gt 
+                    </td>
+                    <td>
+                        Paragraph
+                    </td>
+                    <td>
+                        Represents a paragraph
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <header>
+            HTML Basic Table Elements To Know
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="code"> 
+                        &lttable&gt
+                    </td>
+                    <td>
+                        Table
+                    </td>
+                    <td>
+                        The wrapper element for all HTML tables
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &ltthead&gt
+                    </td>
+                    <td>
+                        Table Head
+                    </td>
+                    <td>
+                        The set of rows defining he column headers in a table
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &lttbody&gt 
+                    </td>
+                    <td>
+                        Table Body
+                    </td>
+                    <td>
+                        The set of rows containing actual table data 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &lttr&gt 
+                    </td>
+                    <td>
+                        Table Row
+                    </td>
+                    <td>
+                        The table row container
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &lttd&gt 
+                    </td>
+                    <td>
+                        Table Data
+                    </td>
+                    <td>
+                        The table row container
+                    </td>
+                </tr>
+                <tr>
+                    <td class="code">
+                        &lttfoot&gt 
+                    </td>
+                    <td>
+                        Table Foot 
+                    </td>
+                    <td>
+                        The set of rows defining the footer in a table
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <header>
+            Table Attributes
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="attribute">
+                        colspan
+                    </td>
+                    <td>
+                        Column Span
+                    </td>
+                    <td>
+                        Defines how many columns a td element should span
+                    </td>
+                </tr>
+                <tr>
+                    <td class="attribute">
+                        rowspan
+                    </td>
+                    <td>
+                        Row Span
+                    </td>
+                    <td>
+                        Defines how many rows a td element should span
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
